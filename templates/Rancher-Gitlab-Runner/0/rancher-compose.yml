@@ -1,0 +1,9 @@
+.catalog:
+  name: "GitLabRunner"
+  version: "0"
+  description: "GitLabRunner"
+  uuid: "GitLabRunner-0"
+  minimum_rancher_version: "v1.0"
+  #questions: #Used to request user input for configuration options
+gl-multi-runner:
+  scale: 1

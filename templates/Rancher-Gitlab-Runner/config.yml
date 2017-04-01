@@ -1,0 +1,8 @@
+name: Gitlab Runner
+description: 
+  GitLab Docker Runner for GitLab CE
+version: 1
+category: Continuous Integration
+maintainer: Softbox
+license: MIT
+projectURL: http://github.com/Softboxlab
