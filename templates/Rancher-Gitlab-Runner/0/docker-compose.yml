@@ -2,7 +2,7 @@ gl-multi-runner:
   labels:
     io.rancher.container.pull_image: always
     io.rancher.scheduler.affinity:host_label: env=hml ## This makes sure that my container only runs on private Rancher instances.
-  image: gitlab/gitlab-runner:alpine-v1.11.1 ## You could pull this image, store it in your own registry if you want.  Then pull it from there.
+  image: gitlab/gitlab-runner:latest ## You could pull this image, store it in your own registry if you want.  Then pull it from there.
   privileged: true
   volumes:
   - /efs/data/gitlab-runner/config:/etc/gitlab-runner
