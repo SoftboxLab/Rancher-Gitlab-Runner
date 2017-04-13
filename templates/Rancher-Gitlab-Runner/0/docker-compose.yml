@@ -7,3 +7,4 @@ gl-multi-runner:
   volumes:
   - /efs/data/gitlab-runner/config:/etc/gitlab-runner
   - /var/run/docker.sock:/var/run/docker.sock
+  - /tmp/builds:/builds
